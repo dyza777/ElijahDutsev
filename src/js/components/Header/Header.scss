@@ -1,0 +1,50 @@
+:local  .header {
+    width: 100%;
+    background-color: #111;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+
+      
+  .title {
+    float: left;
+    margin-left: 5%;
+    max-height: 90%;
+    font-size: 3.5vh;
+    font-family: Josefin Sans, sans-serif;
+    cursor: pointer;
+  }
+    
+  .navigation-buttons {
+    position: relative;
+    margin-left: auto;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+    text-align: left;
+      
+    .nav-button {
+        color: #fff;
+        margin: 10px 8px;
+        padding: 6px 5px;
+        text-decoration: none;
+        -webkit-transition: border 0.5s ease;
+        -o-transition: border 0.5s ease;
+        transition: border 0.5s ease;
+        font-family: Josefin Sans, sans-serif;
+        font-size: 2vh;
+    }
+
+    .nav-button a {
+        transition: all 0.1s;
+    }
+
+    .nav-button :hover {
+        color: #fff;
+    }
+  }
+}

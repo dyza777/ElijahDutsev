@@ -16,5 +16,5 @@ ReactDOM.render(
             <Root />
         </BrowserRouter>
     </Provider>
-    , document.querySelector('.container')
+    , document.querySelector('.main-container')
 );

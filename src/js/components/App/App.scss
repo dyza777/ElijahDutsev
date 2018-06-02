@@ -1,7 +1,45 @@
 :local .main {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: #eff8ff;
     display: flex;
+    align-items: center;
     justify-content: center;
-    margin: 100px;
-    padding: 100px;
-    border: 1px solid black;
+    flex-direction: column;
+}
+
+:global {
+    body {
+        padding: 0;
+        margin: 0 auto;
+        height: 100%;
+    }
+      
+    a {
+        color: #a0f0ed;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #a0f0ed;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: #a0f0ed;
+        text-decoration: none;
+    }
+
+    a:active {
+        color: #a0f0ed;
+        text-decoration: none;
+    }
+
+    img {
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
 }
